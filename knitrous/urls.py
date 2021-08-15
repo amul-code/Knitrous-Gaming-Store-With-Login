@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path ,include
-from home import views
+from knitrous import views
 
 urlpatterns = [
     path("",views.index,name='home'),
@@ -10,4 +10,6 @@ urlpatterns = [
     path("games",views.games,name='games'),
     path("accessories",views.accessories,name='accessories'),
     path("es",views.es,name='es'),
+    path("clan",views.clan,name='clan'),
+    path("login", views.login, name='login'),
 ]

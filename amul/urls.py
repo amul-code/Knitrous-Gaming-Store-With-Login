@@ -22,5 +22,5 @@ admin.site.index_title = "Welcome to kNitrous Gaming Store Portal"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('home.urls'))
+    path('',include('knitrous.urls'))
 ]
